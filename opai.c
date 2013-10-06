@@ -17,7 +17,7 @@ void main()
     for (fsize; fsize < mb; fsize = theStat.st_size)
     {
       stat("opai.txt", &theStat);
-      fprintf(fp, "おっぱい");
+      fprintf(fp, "おっぱい"); // おっぱい is paiotsu
     }
 
     fclose(fp);
